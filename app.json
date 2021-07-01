@@ -1,0 +1,26 @@
+{
+  "id": "76167980-74cc-4607-9a33-616769352e64",
+  "name": "Mauritz",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Mauritz.com/help/",
+  "showMyCode": true,
+  "runtime": "5.0"
+}
