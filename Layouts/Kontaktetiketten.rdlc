@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:DataSourceID>aa79e794-07c5-41f0-b3dc-bb7227e52c8e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="ContAddr_1__1_">
+          <DataField>ContAddr_1__1_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__2_">
+          <DataField>ContAddr_1__2_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__3_">
+          <DataField>ContAddr_1__3_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__4_">
+          <DataField>ContAddr_1__4_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__5_">
+          <DataField>ContAddr_1__5_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__6_">
+          <DataField>ContAddr_1__6_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__7_">
+          <DataField>ContAddr_1__7_</DataField>
+        </Field>
+        <Field Name="ContAddr_1__8_">
+          <DataField>ContAddr_1__8_</DataField>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet</rd:DataSetName>
+        <rd:SchemaPath>Report.xsd</rd:SchemaPath>
+        <rd:TableName>Result</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>65mm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>30mm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value EvaluationMode="Auto">=Fields!ContAddr_1__1_.Value &amp;
+ IIF(Fields!ContAddr_1__2_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__2_.Value) &amp;
+ IIF(Fields!ContAddr_1__3_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__3_.Value) &amp;
+ IIF(Fields!ContAddr_1__4_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__4_.Value) &amp;
+ IIF(Fields!ContAddr_1__5_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__5_.Value) &amp;
+ IIF(Fields!ContAddr_1__6_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__6_.Value) &amp;
+ IIF(Fields!ContAddr_1__7_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__7_.Value) &amp;
+ IIF(Fields!ContAddr_1__8_.Value = "", "", Chr(10) &amp; Fields!ContAddr_1__8_.Value)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>None</Style>
+                            </Border>
+                            <VerticalAlign>Top</VerticalAlign>
+                            <PaddingLeft>3mm</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2mm</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <rd:Selected>true</rd:Selected>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <Height>30mm</Height>
+            <Width>65mm</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>30.17917mm</Height>
+        <Style />
+      </Body>
+      <Width>65mm</Width>
+      <Page>
+        <PageHeight>3.6cm</PageHeight>
+        <PageWidth>7cm</PageWidth>
+        <InteractiveHeight>11in</InteractiveHeight>
+        <InteractiveWidth>8.5in</InteractiveWidth>
+        <LeftMargin>0.5cm</LeftMargin>
+        <RightMargin>0cm</RightMargin>
+        <TopMargin>0.5cm</TopMargin>
+        <BottomMargin>0cm</BottomMargin>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>008e2251-957d-4d38-8a6e-99b21d393fb0</rd:ReportID>
+</Report>

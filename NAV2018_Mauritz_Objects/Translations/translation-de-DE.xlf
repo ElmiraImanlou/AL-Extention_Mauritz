@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1915304286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Password</source>
+          <target>Dienstkennwort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Password - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1915304286 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target>Schlüssel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Password - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1915304286 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target>Wert</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Password - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2437467671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encrypted Key/Value</source>
+          <target>Verschlüsselter Schlüssel/Wert</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Encrypted Key/Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2437467671 - Field 3348941625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key</source>
+          <target>Schlüssel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Encrypted Key/Value - Field Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2437467671 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target>Wert</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Encrypted Key/Value - Field Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Password</source>
+          <target>Kennwort festlegen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - Control 843942239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target>Kennwort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - Control SetPassword - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - Control 843942239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the password for this task. The password must consist of 8 or more characters, at least one uppercase letter, one lowercase letter, and one number.</source>
+          <target>Gibt das Kennwort für diese Aufgabe an. Das Kennwort muss mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Ziffer enthalten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - Control SetPassword - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - Control 1619357887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirm Password</source>
+          <target>Kennwort bestätigen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - Control ConfirmPassword - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - Control 1619357887 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the password repeated.</source>
+          <target>Gibt die Wiederholung des Kennworts an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - Control ConfirmPassword - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 4047091786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified passwords are not the same.</source>
+          <target>Die angegebenen Kennwörter stimmen nicht überein.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType PasswordMismatchErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 1260724060" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The specified password does not meet the requirements. It must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number.</source>
+          <target>Das angegebene Kennwort erfüllt die Anforderungen nicht. Es muss mindestens 8 Zeichen lang sein und mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Ziffer enthalten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType PasswordTooSimpleErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 2860503031" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The password did not validate correctly, or it was not accepted.</source>
+          <target>Das Kennwort wurde nicht ordnungsgemäß überprüft oder wurde nicht akzeptiert.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType PasswordNotValidatedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 4228540185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must enter a password.</source>
+          <target>Sie müssen ein Kennwort eingeben.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType PasswordBlankIsNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 1731874155" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to exit without entering a password?</source>
+          <target>Möchten Sie ohne Eingabe eines Kennworts beenden?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType ConfirmBlankPasswordQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3206882014 - NamedType 32063345" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter Password</source>
+          <target>Kennwort eingeben</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Std. Password Dialog - NamedType GetPasswordCaptionTxt</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

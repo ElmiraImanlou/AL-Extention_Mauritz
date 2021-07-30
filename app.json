@@ -2,7 +2,7 @@
   "id": "76167980-74cc-4607-9a33-616769352e64",
   "name": "Mauritz",
   "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "version": "1.1.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -16,11 +16,12 @@
   "application": "18.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50000,
+      "to": 90000
     }
   ],
   "contextSensitiveHelpUrl": "https://Mauritz.com/help/",
   "showMyCode": true,
-  "runtime": "5.0"
+  "runtime": "5.0",
+  "target": "Internal"
 }
